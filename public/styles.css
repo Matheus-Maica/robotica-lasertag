@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body { 
+    margin-top: 50px;
+    background: #E0E2E9;
+}
+
+.header-wrapper {
+    width: 100%;
+    position:fixed;
+    top:0;
+    right:0;
+    background: #364F6B;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+}
+
+.header {
+    max-width: 1460px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5px;
+}
+
+.header h1 {
+    font-size: 1.5rem;
+}
+
+.header-logo {
+    text-decoration: none;
+    color: white;
+    margin: 0 25px;
+    display: flex;
+    align-items: center;
+}
+  
+.header-logo > img {
+    margin-right: 1rem;
+    width: 25%;
+}
+  
+  
+@media (max-width: 768px) {
+    .header {
+      font-size: 0.75rem;
+    }
+    .logo {
+      visibility: hidden;
+    }
+}
+
+.panel-wrapper {
+    width: 100%;
+    margin: 150px 0;
+}
+
+.blue-background {
+    background-color: #364F6B;
+}
+
+.panel {
+    margin: 0 auto;
+    max-width: 1640px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 120px;
+    padding: 5rem;
+    align-items: center;
+}
+
+.panel > img {
+    width: 100%;
+}
+
+.panel p {
+    line-height: 50px;
+    font-size: 2rem;
+    color: black;
+}
+
+.blue-background p {
+    color: white
+}
+
+.panel > section {
+    display: flex;
+    align-items: center;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+.hero-content > div {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-header {
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #364F6B;
+}
+
+.footer-wrapper {
+    width: 100%;
+    background: #364F6B;
+    color: white;
+    line-height: 1.5;
+    padding: 1rem;
+  }
+  .footer-wrapper a {
+    color: white;
+    text-decoration: none;
+  }
+  .footer-wrapper li {
+    list-style: none;
+  }
+  
+  .content {
+    max-width: 1460px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+  }
+  
+  .left-side {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 50%;
+  }
